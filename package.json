@@ -6,15 +6,20 @@
     "express": "^4.17.3",
     "express-validator": "^6.14.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.3.0"
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.16"
   },
   "name": "banko.io.server",
   "version": "1.0.0",
   "description": "backend server of banko.io",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build": "[pharmacy-server] build --output public"
   },
   "author": "saurav kumar",
   "license": "ISC"
